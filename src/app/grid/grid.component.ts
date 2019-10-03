@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Article } from '../entities/article';
 
 @Component({
-	selector: 'app-three-columns-grid',
-	templateUrl: './three-columns-grid.component.html',
-	styleUrls: ['./three-columns-grid.component.css']
+	selector: 'grid',
+	templateUrl: './grid.component.html',
+	styleUrls: ['./grid.component.css']
 })
-export class ThreeColumnsGridComponent implements OnInit {
+export class GridComponent implements OnInit {
 
-	items: Article[] = [
+	articles: Article[] = [
 		{
 			title: "Lorem ipsum dolor sit amet",
 			description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem...",

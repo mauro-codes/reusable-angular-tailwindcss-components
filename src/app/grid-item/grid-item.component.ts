@@ -8,7 +8,10 @@ import { Article } from '../entities/article';
 })
 export class GridItemComponent implements OnInit {
 
-	@Input() article: Article
+	@Input() title: string
+	@Input() description: string
+	@Input() imgUrl: string
+	@Input() link: string
 
 	constructor() { }
 

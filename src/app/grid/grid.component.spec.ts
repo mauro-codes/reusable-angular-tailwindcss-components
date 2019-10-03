@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ThreeColumnsGridComponent } from './three-columns-grid.component';
+import { GridComponent } from './grid.component';
 
-describe('ThreeColumnsGridComponent', () => {
-  let component: ThreeColumnsGridComponent;
-  let fixture: ComponentFixture<ThreeColumnsGridComponent>;
+describe('GridComponent', () => {
+  let component: GridComponent;
+  let fixture: ComponentFixture<GridComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ThreeColumnsGridComponent ]
+      declarations: [ GridComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ThreeColumnsGridComponent);
+    fixture = TestBed.createComponent(GridComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

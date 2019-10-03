@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { ThreeColumnsGridComponent } from './three-columns-grid/three-columns-grid.component';
+import { GridComponent } from './grid/grid.component';
 
 const routes: Routes = [
 	

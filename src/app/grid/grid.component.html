@@ -1,0 +1,11 @@
+<!-- grid.component.html -->
+<div class="flex flex-wrap mt-2 mx-2">
+    <!-- Items -->
+	<app-grid-item *ngFor="let article of articles" 
+		[title]="article.title"
+		[description]="article.description"
+		[imgUrl]="article.imgUrl"
+		[link]="article.link"
+		class="w-full md:w-1/2 lg:w-1/3 px-2 my-2">
+	</app-grid-item>
+</div>
